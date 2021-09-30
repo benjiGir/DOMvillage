@@ -35,25 +35,33 @@
     color: red;
 }*/
 
+
+
         /*****************   MAIN CONTAINER    *************/
 
+
+
 .container {
-    order: 1;
+    /*order: 1;*/
     height: 90vh;
     width: 100%;
     background-color: #e4dcdc;
 }
 
 .container-img {
-    height: 30vh;
+    height: 40vh;
+    background-color: skyblue;
+    background-image: url(https://cdn.discordapp.com/attachments/891960529671843850/892406499563937832/ou_boire_pexels-oleg-magni-989711.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container-h1 {
-    background-color: rgb(54, 56, 61);
-    height: 15vh;
+    background-color: rgb(80, 81, 83);
+    height: 10vh;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
 
 .container-h1 h1 {
