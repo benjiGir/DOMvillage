@@ -9,7 +9,7 @@
     order: 2;
     height: 10vh;
     width: 100%;
-    background-color: #678797;
+    background-color: #ace1fd;
 }
 
 .navbar-container ul {
@@ -39,7 +39,17 @@
 }
 
 .container-img {
-    height: 30vh;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+    border-radius: 50%;
+    right: calc(50% - 37.5px);
+    top: calc(37% - 37.5px);
 }
 
 .container-h1 {
@@ -47,7 +57,7 @@
     height: 15vh;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
 
 .container-h1 h1 {
