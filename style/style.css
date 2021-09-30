@@ -36,10 +36,12 @@
     height: 90vh;
     width: 100%;
     background-color: #e4dcdc;
+    overflow: scroll;
 }
 
 .hero-text {
     padding-top: 1.5rem;
+    margin: 0 3%;
 }
 
 .container-img {
