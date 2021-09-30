@@ -6,17 +6,18 @@
 }
 
 .navbar-container {
-    order: 2;
+    bottom: 0;
+    /*order: 2;*/
     height: 10vh;
     width: 100%;
-    background-color: #678797;
+    background-color: #ace1fd;
+    position: fixed;
 }
 
 .navbar-container ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-around;
     padding-right: 10px;
     margin-left: -30px;
 }
@@ -31,42 +32,213 @@
     font-size: 25px;
 }
 
-/*ul li:first-child i {
-    color: red;
-}*/
+ul li:first-child i {
+    font-size: 30px;
+}
 
 
 
         /*****************   MAIN CONTAINER    *************/
 
 
-
 .container {
-    /*order: 1;*/
-    height: 90vh;
+    order: 1;
+    height: 250vh;
     width: 100%;
     background-color: #e4dcdc;
 }
 
-.container-img {
-    height: 40vh;
-    background-color: skyblue;
-    background-image: url(https://cdn.discordapp.com/attachments/891960529671843850/892406499563937832/ou_boire_pexels-oleg-magni-989711.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+.header {
+    width: 100%;
+    height: 29vh;
 }
 
-.container-h1 {
-    background-color: rgb(80, 81, 83);
-    height: 10vh;
+.header .container-img img {
+    width: 100%;
+    height: 30hv;
+    background-position:center;
+    position: relative;
+}
+
+        /********************  LOGO  ********************/
+
+.container-logo {
+    background-color: tomato;
+    height: 5vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.container-h1 h1 {
-    color: white;
+.container-logo img {
+    border-radius: 50%;
+    width: 25%;
+    /*height: 100%;*/
+    position: absolute;
 }
+
+       /*******************  FIRST CARD  ************************/
+
+.first-card {
+    background: rgb(165, 146, 165);
+    height: 50vh;
+    margin-top: 7em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    border-radius: 20px;
+}
+
+.first-card-img {
+    background-color: yellow;
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.first-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.first-card-bar-name {
+    padding-top: 1em;
+    height: 15%;
+}
+
+.first-card-text-description {
+    display: flex;
+    justify-content: center;
+}
+
+.first-card-button {
+    display: flex;
+    justify-content: flex-end;
+    height: 15%;
+}
+
+.first-card-button button {
+    height: 50%;
+    width: 30%;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+.first-card-button a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+
+        /**********************   SECOND CARD   ***********************/
+
+
+.second-card {
+    background: rgb(165, 146, 165);
+    height: 50vh;
+    margin-top: 7em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 20px;
+}
+
+.second-card-img {
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.second-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.second-card-bar-name {
+    padding-top: 1em;
+    height: 15%;
+}
+
+.second-card-text-description {
+    display: flex;
+    justify-content: center;
+}
+
+.second-card-button {
+    display: flex;
+    justify-content: flex-end;
+    height: 15%;
+}
+
+.second-card-button button {
+    height: 50%;
+    width: 30%;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 10px;
+    background-color: yellow;
+    
+}
+
+.second-card-button a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+           /*******************   THIRD CARD   *******************/
+
+
+.third-card {
+    background: rgb(165, 146, 165);
+    height: 50vh;
+    margin-top: 7em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 20px;
+}
+
+.third-card-img {
+    background-color: yellow;
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.third-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.third-card-bar-name {
+    padding-top: 1em;
+    height: 15%;
+}
+
+.third-card-text-description {
+    display: flex;
+    justify-content: center;
+}
+
+.third-card-button {
+    display: flex;
+    justify-content: flex-end;
+    height: 15%;
+}
+
+.third-card-button button {
+    height: 50%;
+    width: 30%;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+.third-card-button a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+
+
 
 
 
