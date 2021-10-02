@@ -82,7 +82,7 @@ ul li:first-child i {
        /*******************  FIRST CARD  ************************/
 
 .first-card {
-    background: #78b7da;
+    background: #89959b;
     height: 50vh;
     margin-top: 7em;
     margin-right: 1em;
@@ -103,7 +103,7 @@ ul li:first-child i {
 }
 
 .first-card-bar-name {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -112,7 +112,7 @@ ul li:first-child i {
 }
 
 .first-card-text-description {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -146,7 +146,7 @@ ul li:first-child i {
 
 
 .second-card {
-    background: #78b7da;
+    background: #89959b;
     height: 50vh;
     margin-top: 7em;
     margin-right: 1em;
@@ -166,7 +166,7 @@ ul li:first-child i {
 }
 
 .second-card-bar-name {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -175,7 +175,7 @@ ul li:first-child i {
 }
 
 .second-card-text-description {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -208,8 +208,9 @@ ul li:first-child i {
 
 
 .third-card {
-    background: #78b7da;
+    background: #89959b;
     height: 50vh;
+    margin-bottom: 4em;
     margin-top: 7em;
     margin-right: 1em;
     margin-left: 1em;
@@ -228,7 +229,7 @@ ul li:first-child i {
 }
 
 .third-card-bar-name {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -237,7 +238,7 @@ ul li:first-child i {
 }
 
 .third-card-text-description {
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 25px;
     display: flex;
     justify-content: center;
