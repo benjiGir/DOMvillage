@@ -133,12 +133,14 @@ ul li:first-child i {
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .first-card-button a {
+    border-radius: 10px;
     text-decoration: none;
     font-size: 11px;
+    color: black;
 }
 
 
@@ -196,12 +198,13 @@ ul li:first-child i {
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .second-card-button a {
     text-decoration: none;
     font-size: 11px;
+    color: black;
 }
 
            /*******************   THIRD CARD   *******************/
@@ -265,6 +268,7 @@ ul li:first-child i {
 .third-card-button a {
     text-decoration: none;
     font-size: 11px;
+    color: black;
 }
 
           /************************  FOOTER  ***************************/
