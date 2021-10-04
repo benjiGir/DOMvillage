@@ -1,3 +1,7 @@
+* {
+    font-family: montserrat, sans-serif;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +38,7 @@
 .navbar-container ul li a  {
     color: #181818;
     font-size: 25px;
+    text-decoration: none;
 }
 
 ul li:first-child i {
