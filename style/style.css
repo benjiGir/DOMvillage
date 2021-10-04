@@ -1,5 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    -webkit-overflow-scrolling: touch
 }
 
 .wrapper {
@@ -88,8 +89,33 @@
     margin-top: 5%;
 }
 
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    --slide-count: 3;
+}
+
+.carousel {
+    width: calc(100% * var(--slide-count));
+    display: flex;
+}
+
+.slide {
+    scroll-snap-align: start;
+}
+
+.slide-img {
+    width: 100vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
 .article > p {
     margin: 0 3%;
+    text-align: center;
 }
 
 
