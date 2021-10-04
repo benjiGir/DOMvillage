@@ -1,3 +1,7 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -57,6 +61,7 @@
 .hero-text {
     grid-area: text / text / text;
     margin: 0 3%;
+    text-align: center;
 }
 
 .container-img {
@@ -77,6 +82,14 @@
     width: 20vw;
     z-index: 1;
     border-radius: 50%;
+}
+
+.article {
+    margin-top: 5%;
+}
+
+.article > p {
+    margin: 0 3%;
 }
 
 
