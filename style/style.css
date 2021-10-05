@@ -110,6 +110,7 @@ header {
     grid-area: text / text / text;
     margin: 0 3%;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .container-img {
@@ -155,6 +156,7 @@ header {
 .slide {
     scroll-snap-align: start;
 }
+
 
 .slide-img {
     width: 100vw;
