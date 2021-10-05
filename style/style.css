@@ -68,7 +68,7 @@
 
 
     h1{
-            color:#181818;
+            color:#678797;
             text-align: center;
     }
     
@@ -85,16 +85,7 @@
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
-        
-
-    /*.containerForm{
-        
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;*/
-        
+        padding-top: 5px;
     }
     .header-img{
         width: 100vw;
@@ -103,27 +94,26 @@
     
     
     #contact button{
-        height: 60%;
-        width: 30%;
-        margin-top: 1em;
-        margin-left: 8em;
+        height: 90%;
+        width: 100%;
+        /*margin-top: 1em;*/
+        /*margin-left: 50em;*/
         border-radius: 10px;
-        
+        align-items: center;
 
     }
     #contact a{
         text-decoration: none;
-        font-size:11px;
+        font-size:16px;
+        color:#181818;
         
     }
 
    
     /*telephone*/
    /* @media screen and (max-width:992px){
-       .header-contact{
-        max-width: 105vw;
-        height: auto;
-        }
+     
+        
     }
     
 
