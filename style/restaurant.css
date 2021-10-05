@@ -96,10 +96,7 @@ ul li:first-child i {
         align-items: center;
     }
 
-    .information {
-        background-color: yellow;
-        display: flex;
-    }
+
 
        /*******************  FIRST CARD  ************************/
 
@@ -173,23 +170,25 @@ ul li:first-child i {
     border: solid 1px black;
 }       /* A discuter */
 
-.first-card-button .button {
-    color: #2d2e2e;
-}
 
-/*.first-card-button button {
+
+.first-card-button button {
     height: 60%;
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
-}*/
+}
 
 .first-card-button a {
     border-radius: 10px;
     text-decoration: none;
     font-size: 11px;
     color: black;
+}
+
+.information {
+    background-color: rgb(117, 117, 78);
 }
 
 
