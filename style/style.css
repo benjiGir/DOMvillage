@@ -34,6 +34,7 @@
 .navbar-container ul li a  {
     color: #181818;
     font-size: 25px;
+    text-decoration: #000000;
 }
 
 ul li:first-child i {
@@ -103,22 +104,26 @@ ul li:first-child i {
 }
 
 .first-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
     /*height: 15%;*/
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .first-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .first-card-button {
@@ -133,12 +138,14 @@ ul li:first-child i {
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px;
 }
 
 .first-card-button a {
     text-decoration: none;
     font-size: 11px;
+    color: #000000;
 }
 
 
@@ -166,22 +173,26 @@ ul li:first-child i {
 }
 
 .second-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
     /*height: 15%;*/
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .second-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .second-card-button {
@@ -196,12 +207,14 @@ ul li:first-child i {
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px;
 }
 
 .second-card-button a {
     text-decoration: none;
     font-size: 11px;
+    color: #000000;
 }
 
            /*******************   THIRD CARD   *******************/
@@ -229,22 +242,26 @@ ul li:first-child i {
 }
 
 .third-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     /*height: 15%;*/
 }
 
 .third-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .third-card-button {
@@ -259,12 +276,14 @@ ul li:first-child i {
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px;
 }
 
 .third-card-button a {
     text-decoration: none;
     font-size: 11px;
+    color: #000000;
 }
 
           /************************  FOOTER  ***************************/
@@ -281,7 +300,7 @@ footer {
 .top-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background: #CCCCCC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,22 +312,22 @@ footer {
 }*/
 
 .top-footer i  {
-    color: rgb(231, 231, 221);
+    color: #000000;
     font-size: 25px;
 }
 
 .low-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background: #CCCCCC;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .low-footer p {
-    color: whitesmoke;
-    font-size: 12px;
+    color: #000000;
+    font-size: 15px;
 }
 
 
