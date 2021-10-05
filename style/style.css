@@ -110,9 +110,11 @@ ul li:first-child i {
 .first-card-bar-name {
     background-color: #CCCCCC;
     border-radius: 25px;
-    padding-top: 5rm;
-    padding-bottom: 10rm;
+    /*padding-top: 5rm;
+    padding-bottom: 10rm;*/
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     /*height: 15%;*/
 }
 
@@ -128,6 +130,8 @@ ul li:first-child i {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
        /* A discuter */
@@ -194,6 +198,8 @@ ul li:first-child i {
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     /*height: 15%;*/
 }
 
@@ -209,6 +215,8 @@ ul li:first-child i {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .second-card-button {
@@ -262,6 +270,8 @@ ul li:first-child i {
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     /*height: 15%;*/
 }
 
@@ -277,6 +287,8 @@ ul li:first-child i {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .third-card-button {
