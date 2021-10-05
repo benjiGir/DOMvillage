@@ -108,7 +108,7 @@ ul li:first-child i {
 }
 
 .first-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -116,8 +116,12 @@ ul li:first-child i {
     /*height: 15%;*/
 }
 
+.first-card-bar-name p {
+    color: #000000;
+}
+
 .first-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -185,7 +189,7 @@ ul li:first-child i {
 }
 
 .second-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -193,8 +197,12 @@ ul li:first-child i {
     /*height: 15%;*/
 }
 
+.second-card-bar-name p {
+    color: #000000;
+}
+
 .second-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -249,7 +257,7 @@ ul li:first-child i {
 }
 
 .third-card-bar-name {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
@@ -257,8 +265,12 @@ ul li:first-child i {
     /*height: 15%;*/
 }
 
+.third-card-bar-name p {
+    color: #000000;
+}
+
 .third-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #CCCCCC;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -292,7 +304,6 @@ ul li:first-child i {
 
 
 footer {
-    background: rgb(92, 94, 97);
     height: 17vh;
     margin-top: 4em;
     display: block;
@@ -302,7 +313,7 @@ footer {
 .top-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background: #CCCCCC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,21 +325,22 @@ footer {
 }*/
 
 .top-footer i  {
-    color: rgb(231, 231, 221);
+    color: #000000;
     font-size: 25px;
+
 }
 
 .low-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background:#CCCCCC;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .low-footer p {
-    color: whitesmoke;
+    color: #000000;
     font-size: 12px;
 }
 
