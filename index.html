@@ -14,7 +14,27 @@
 
 <body class="wrapper">
   <header>
-    
+    <nav class="nav-desktop">
+      <div class="brand">
+        <img class="logo-desktop" src="./img/logo.png" alt="Logo du village" />
+      </div>
+      <div id="dateDisplay">
+      </div>
+      <ul class="nav-menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <div class="menu submenu">
+          <button class="btn-submenu">Activités</button>
+          <div class="submenu-content">
+            <a href="./pages/bar.html">Bar</a>
+            <a href="./pages/restaurant.html">Restaurant</a>
+            <a href="./pages/hotel.html">Hotel</a>
+            <a href="./pages/POI.html">Culture</a>
+          </div>
+        </div>
+        <li class="menu"><a href="./pages/who.html">Qui sommes nous ?</a></li>
+        <li class="menu"><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main class="container">
@@ -68,22 +88,30 @@
       </p>
     </article>
 
-    <div class="footer">
+    <div class="footer-mobile">
       <div class="top-footer">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-    <div class="low-footer">
-        <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
-    </div>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="low-footer">
+          <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+      </div>
     </div>
 
   </main>
 
-    <footer>
-        
+    <footer class="footer-desktop">
+        <div class="top-footer">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="low-footer">
+            <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+        </div>
     </footer>
 
 
@@ -119,5 +147,6 @@
       </li>
     </ul>
   </nav>
+  <script src="./scripts/app.js"></script>
 </body>
 </html>

@@ -3,6 +3,10 @@
     -webkit-overflow-scrolling: touch
 }
 
+header {
+    display: none;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -39,12 +43,16 @@
 /************************  FOOTER  ***************************/
 
 
-.footer {
+.footer-mobile {
     background: rgb(92, 94, 97);
     height: 17vh;
     margin-top: 4em;
     display: block;
     justify-content: center;
+}
+
+.footer-desktop {
+    display: none;
 }
 
 .top-footer {
@@ -164,8 +172,106 @@
         display: none;
     }
 
+    header {
+        display: block;
+        width: 100vw;
+    }
+
+    .nav-desktop {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100vw;
+        background-color: #ace1fd;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+    }
+
+    .logo-desktop {
+        width: 50%;
+    }
+
+    #dateDisplay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+    }
+
+    
+
     .logo-container {
         display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 45vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu > a {
+        text-decoration: none;
+        color: #181818;
+    }
+
+    .submenu {
+        height: 100%;
+    }
+
+    .btn-submenu {
+      outline: none;
+      border: none;
+      background-color: inherit;
+      color: #181818;
+      height: 100%;  
+    }
+
+    .submenu:hover .submenu-content {
+        display: block;
+    }
+
+    .submenu-content {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        padding: 25px;
+        background-color: #ace1fd;
+        opacity: .8;
+        border-radius: 10%;
+        
+    }
+
+    .submenu-content > a {
+        margin: 10% 0;
+        text-decoration: none;
+        color: #181818;
+        height: 100%;
+    }
+
+    
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: block;
+        width: 100%;
+        height: 10vh;
     }
     
 }
