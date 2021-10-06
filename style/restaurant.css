@@ -88,7 +88,7 @@ ul li:first-child i {
 
     }
     
-    .Titre  {
+    .container-title  {
         display: flex;
         justify-content: center;
         background-color: salmon;
@@ -279,7 +279,7 @@ ul li:first-child i {
     border-radius: 20px;
 }
 
-.third-card-bar-name {
+.third-card-resto-name {
     background-color: rgb(58, 57, 57);
     border-radius: 25px;
     padding-top: 5rm;
