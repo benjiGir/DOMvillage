@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <title>DOM Village</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/reset.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/contact.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>DOM Village</title>
+
 </head>
+
 <body class="wrapper">
-    <main class="container">
-        
-    </main>
+  <header>
+    <img class="header-img" alt="Un beau chemin en bois vers la mer sous le soleil couchant"
+      src="../img/chemin_formulaire.jpg" width=98%>
+  </header>
+  <main class="container containerForm">
+
+
+    <h1>Contactez-nous</h1>
+
+    <form id="contactForm">
+
+      <input class="form" type="text" id="first_name" name="first_name" placeholder="Prenom"></br>
+
+      <input class="form" type="text" id="last_name" name="last_name" placeholder="Nom"></br>
+
+      <input class="form" type="email" id="email" name="email" placeholder="Email"></br>
+
+      <textarea class="form" name="message" id="message">Votre texte</textarea>
+
+
+      <div id="contact">
+        <button type="submit">
+          <a class="button" href="#">Envoyer</a>
+        </button>
+      </div>
+    </form>
+
+  </main>
+
+
+  <nav class="navbar-container">
+    <ul>
+      <li>
+        <div class="icon">
+          <i class="fa fa-home" href="#" ..aria-hidden="true"></i>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fa fa-coffee" href="#" ..aria-hidden="true"></i>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fa fa-users" href="#" ..aria-hidden="true"></i>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fa fa-paper-plane" href="#" ..aria-hidden="true"></i>
+        </div>
+
+      </li>
+    </ul>
+  </nav>
+
+
+
 </body>
+
 </html>
