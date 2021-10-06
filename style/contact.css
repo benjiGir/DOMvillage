@@ -1,0 +1,56 @@
+
+h1{
+    color:#678797;
+    text-align: center;
+}
+
+.form{
+background-color: #f5f5f5;
+color:#181818;
+width: 60vw;
+margin:1%;
+border-radius: 10px;       
+}
+
+#contactForm{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+padding-top: 5px;
+}
+
+.header-img{
+width: 100vw;
+height: 35vh;
+}
+
+
+#contact button{
+height: 90%;
+width: 100%;
+border-radius: 10px;
+align-items: center;
+margin-top: 5% ;
+}
+#contact a{
+text-decoration: none;
+font-size:16px;
+color:#181818;
+
+}
+
+
+/*telephone*/
+/* @media screen and (max-width:992px){
+
+
+}
+
+
+
+/*ordinateur
+@media screen and (min-width:993px){
+
+}
+*/
