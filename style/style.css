@@ -94,6 +94,8 @@ ul li:first-child i {
     margin-left: 1em;
     margin-bottom: 2em;
     border-radius: 20px;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 .first-card-img {
@@ -135,14 +137,14 @@ ul li:first-child i {
 }
 
 
-.second-card-button {
+.first-card-button {
     display: flex;
     justify-content: flex-end;
     height: 15%;
     padding-right: 1em;
 }
 
-.second-card-button button {
+.first-card-button button {
     height: 60%;
     width: 30%;
     margin-top: 2em;
