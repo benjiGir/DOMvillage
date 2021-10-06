@@ -88,12 +88,17 @@ ul li:first-child i {
 
     }
     
-    .container-title  {
+    .title  {
         display: flex;
         justify-content: center;
-        background-color: salmon;
-        height: 10%;
-        align-items: center;
+        background-color: #ace1fd;
+        height: 5vh;
+        align-items: center;  
+        margin-top: 1rem;
+        border-radius: 20px;
+        margin-left: 1em;
+        margin-right: 2em;
+        color:#181818
     }
 
 
@@ -102,11 +107,11 @@ ul li:first-child i {
 
 .first-card {
     background: #89959b;
-    height: 50vh;
-    margin-top: 7em;
+    height: 55vh;
+    margin-top: 3em;
     margin-right: 1em;
     margin-left: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border-radius: 20px;
 }
 
@@ -121,203 +126,85 @@ ul li:first-child i {
     border-radius: 20px;
 }
 
-.first-card-bar-name {
-    background-color: rgb(58, 57, 57);
+.first-card-resto-name {
+    background-color:#cccc;
     border-radius: 25px;
     padding-top: 5rm;
     padding-bottom: 10rm;
     padding-left: 1em;
-    /*height: 15%;*/
+    text-align: center;
 }
 
 .first-card-text-description {
-    background-color: rgb(58, 57, 57);
+    background-color: #cccc;
     border-radius: 25px;
     display: flex;
     justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
     padding-left: 1em;
+    padding-right: 1em;
+    
+    
+
 }
 
-.first-card-budget {
-    
-    border-radius: 20px;
+.information{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 5% ;
-    padding-right: 1em;
-    margin-top: 2em;
-    margin-left:7em ;
-    margin-right:0,5em;
-    background-color: rgb(163, 157, 157);
-    border-radius: 20px;
-    border:solid 1px black;
+    padding: 0;
+    margin:1em;
+    justify-content: center;
+    align-items: flex-end;
 }
        /* A discuter */
-.first-card-button {
+.card-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 8%;
+    height: 10%;
     padding-right: 1em;
+
     margin-top: 2em;
     margin-left: 7em;
     margin-right: 0.5em;
-    background-color: rgb(163, 157, 157);
+    background-color: #ace1fd;
     border-radius: 20px;
     border: solid 1px black;
 }       /* A discuter */
 
 
 
-.first-card-button button {
-    height: 60%;
+.card-button button {
+    height: 50%;
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
-.first-card-button a {
+.card-button a {
     border-radius: 10px;
     text-decoration: none;
     font-size: 11px;
     color: black;
-}
-
-.information {
-    background-color: rgb(117, 117, 78);
-}
-
-
-        /**********************   SECOND CARD   ***********************/
-
-
-.second-card {
-    background: #89959b;
-    height: 50vh;
-    margin-top: 7em;
-    margin-right: 1em;
-    margin-left: 1em;
-    border-radius: 20px;
-}
-
-.second-card-img {
-    border-radius: 20px;
-    height: 20vh;
-}
-
-.second-card-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-.second-card-bar-name {
-    background-color: rgb(58, 57, 57);
-    border-radius: 25px;
-    padding-top: 5rm;
-    padding-bottom: 10rm;
-    padding-left: 1em;
-    /*height: 15%;*/
-}
-
-.second-card-text-description {
-    background-color: rgb(58, 57, 57);
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
     padding-left: 1em;
 }
 
-.second-card-button {
-    display: flex;
-    justify-content: flex-end;
-    height: 15%;
-    padding-right: 1em;
+
+    
+.information .budget {
+    background-color:#cccccc;
+    font-size: 12px;
+    border-radius: 10px;
+    height: 30%;
+    width: 80px;
+    padding-right: -3em;
+    text-align: center;
+    align-items: center;
 }
 
-.second-card-button button {
-    height: 60%;
-    width: 30%;
-    margin-top: 2em;
-    margin-left: 1em;
-    border-radius: 20px;
-}
 
-.second-card-button a {
-    text-decoration: none;
-    font-size: 11px;
-    color: black;
-}
-
-           /*******************   THIRD CARD   *******************/
-
-
-.third-card {
-    background: #89959b;
-    height: 50vh;
-    margin-bottom: 4em;
-    margin-top: 7em;
-    margin-right: 1em;
-    margin-left: 1em;
-    border-radius: 20px;
-}
-
-.third-card-img {
-    border-radius: 20px;
-    height: 20vh;
-}
-
-.third-card-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-.third-card-resto-name {
-    background-color: rgb(58, 57, 57);
-    border-radius: 25px;
-    padding-top: 5rm;
-    padding-bottom: 10rm;
-    padding-left: 1em;
-    /*height: 15%;*/
-}
-
-.third-card-text-description {
-    background-color: rgb(58, 57, 57);
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-}
-
-.third-card-button {
-    display: flex;
-    justify-content: flex-end;
-    height: 15%;
-    padding-right: 1em;
-}
-
-.third-card-button button {
-    height: 60%;
-    width: 30%;
-    margin-top: 2em;
-    margin-left: 1em;
-    border-radius: 20px;
-}
-
-.third-card-button a {
-    text-decoration: none;
-    font-size: 11px;
-    color: black;
-}
+*/
 
           /************************  FOOTER  ***************************/
 
@@ -333,7 +220,7 @@ footer {
 .top-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background: #cccccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,16 +236,20 @@ footer {
     font-size: 25px;
 }
 
+.top-footer i {
+    color:#181818
+}
+
 .low-footer {
     width: 100%;
     height: 50%;
-    background: rgb(61, 61, 59);
+    background: #cccccc;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .low-footer p {
-    color: whitesmoke;
+    color:#181818;
     font-size: 12px;
 }
