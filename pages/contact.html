@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../style/reset.css">
   <link rel="stylesheet" href="../style/style.css">
   <link rel="stylesheet" href="../style/contact.css">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>DOM Village</title>
 
@@ -23,20 +24,23 @@
 
     <h1>Contactez-nous</h1>
 
-    <form id="contactForm">
+    <form class="contactForm" name="myForm" >
 
-      <input class="form" type="text" id="first_name" name="first_name" placeholder="Prenom"></br>
-
-      <input class="form" type="text" id="last_name" name="last_name" placeholder="Nom"></br>
-
+      <input class="form" type="text"  value="" id="name" name="name" placeholder="Prenom Nom"></br>
       <input class="form" type="email" id="email" name="email" placeholder="Email"></br>
+      <select class="form" name="but" id="but">
+        <option value="But">Selectionner un motif</option>
+        <option value="Book">Reserver une expérience</option>
+        <option value="Info">Se renseigner</option>
+      </select>
 
-      <textarea class="form" name="message" id="message">Votre texte</textarea>
+      <textarea class="form" name="message" id="message" placeholder="Votre message"></textarea>
 
 
-      <div id="contact">
-        <button type="submit">
-          <a class="button" href="#">Envoyer</a>
+      <div class="contact">
+                                 
+      <button class="button" id="button" type="submit">
+          Envoyer
         </button>
       </div>
     </form>
@@ -69,8 +73,7 @@
       </li>
     </ul>
   </nav>
-
-
+  <!----<script src="../scripts/contact.js"></script>-->
 
 </body>
 
