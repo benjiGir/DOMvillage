@@ -65,7 +65,7 @@ ul li:first-child i {
 .header .container-img img {
     width: 100%;
     height: 37vh;
-    background-position:center;
+    background-position: center;
     position: relative;
 }
 
@@ -96,6 +96,7 @@ ul li:first-child i {
     border-radius: 20px;
     max-width: 500px;
     min-width: 300px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 .first-card-img {
@@ -150,6 +151,7 @@ ul li:first-child i {
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
 }
 
 .first-card-button a {
@@ -170,6 +172,9 @@ ul li:first-child i {
     margin-right: 1em;
     margin-left: 1em;
     border-radius: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 .second-card-img {
@@ -223,6 +228,7 @@ ul li:first-child i {
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
 }
 
 .second-card-button a {
@@ -242,6 +248,9 @@ ul li:first-child i {
     margin-right: 1em;
     margin-left: 1em;
     border-radius: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 .third-card-img {
@@ -295,6 +304,7 @@ ul li:first-child i {
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
 }
 
 .third-card-button a {
@@ -346,6 +356,71 @@ footer {
     font-size: 12px;
 }
 
+                          /****************** MEDIA QUERIES *************************/
 
 
+@media screen and (min-width: 600px) {
 
+    /****** main container *****/
+    .container {
+        display: inline-block;
+        height: 90vh;
+    }
+
+    .navbar-container {
+        position: relative;
+        order: -1;
+    }
+
+    /*** Image ***/
+    .container-img {
+        height: 50%;
+    }
+
+    .header .container-img  img{
+        height: 37vh;
+        background-position: center;
+        object-fit: cover;
+        align-content: center;
+        position: absolute;
+        
+    }
+
+    /*** logo ***/
+    .container-logo img {
+        display: none;
+    }
+
+    /*** Container Cards ***/
+    .container-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*** Firt Card ***/
+    .first-card {
+        display: inline-block;
+        max-width: 500px;
+        min-width: 300px;
+        margin-left: 4em;
+    }
+    
+    /*** Second Card ***/
+    .second-card {
+        display: inline-block;
+        max-width: 500px;
+        min-width: 300px;
+        margin-left: 4em;
+    }
+
+    /*** Third Card ***/
+    .third-card {
+        display: inline-block;
+        max-width: 500px;
+        min-width: 300px;
+        margin-left: 4em;
+    }
+
+    /*** footer ***/
+    
+}
