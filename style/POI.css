@@ -356,34 +356,45 @@ footer {
     font-size: 12px;
 }
 
-                          /****************** MEDIA QUERIES *************************/
+                          /****************** MEDIA QUERIES V *************************/
 
 
 @media screen and (min-width: 600px) {
+
+
+    .wrapper {
+        width: 100vw;
+        height: 100%;
+    }
 
     
     /****** main container *****/
     .container {
         display: inline-block;
+        height: 100vh;
     }
 
     .navbar-container {
+        /*align-items: center;*/
+        width: 100%;
         position: relative;
         order: -1;
     }
 
     /*** Image ***/
-    /*.container-img {
-        height: 50%;
-    }*/
+
+    .header {
+        height: 50vh;
+    }
+
+    .header .container-img {
+        height: 100%;
+    }
 
     .header .container-img  img{
-        height: 37vh;
-        background-position: center;
-        object-fit: cover;
-        align-content: center;
-        position: absolute;
-        
+        height: 100%;
+        width: 100%;
+
     }
 
     /*** logo ***/
@@ -394,8 +405,10 @@ footer {
     /*** Container Cards ***/
     .container-cards {
         display: flex;
+        justify-content: center;
         justify-content: space-around;
-        margin-right: 3em;
+        margin-right: 10em;
+        position: relative;
     }
 
     /*** Firt Card ***/
@@ -411,15 +424,29 @@ footer {
         display: inline-block;
         max-width: 500px;
         min-width: 300px;
-        margin-left: 4em;
+        margin-left: 5em;
     }
 
     /*** Third Card ***/
     .third-card {
         display: inline-block;
-        max-width: 500px;
+        max-width: 400px;
         min-width: 300px;
-        margin-left: 4em;
+        margin-left: 5em;
+    }
+
+    footer {
+        position:fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .top-footer i  {
+        font-size: 40px;
+    }
+
+    .low-footer p  {
+        font-size: 25px;
     }
     
 }
