@@ -9,17 +9,46 @@
   <link rel="stylesheet" href="../style/style.css">
   <link rel="stylesheet" href="../style/contact.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+    emailjs.init("user_j9eENNgQWhyCmKflMVmeb");
+    })();
+  </script>
   <title>DOM Village</title>
 
 </head>
 
 <body class="wrapper">
   <header>
-    <img class="header-img" alt="Un beau chemin en bois vers la mer sous le soleil couchant"
-      src="../img/chemin_formulaire.jpg" width=98%>
+    <nav class="nav-desktop">
+      <div class="brand">
+        <img class="logo-desktop" src="./img/logo.png" alt="Logo du village" />
+      </div>
+      <div id="dateDisplay">
+      </div>
+      <ul class="nav-menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <div class="menu submenu">
+          <button class="btn-submenu">Activités</button>
+          <div class="submenu-content">
+            <a href="./pages/bar.html">Bar</a>
+            <a href="./pages/restaurant.html">Restaurant</a>
+            <a href="./pages/hotel.html">Hotel</a>
+            <a href="./pages/POI.html">Culture</a>
+          </div>
+        </div>
+        <li class="menu"><a href="./pages/who.html">Qui sommes nous ?</a></li>
+        <li class="menu"><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <main class="container containerForm">
 
+  <main class="container">
+    <section>
+      <img class="header-img" alt="Un beau chemin en bois vers la mer sous le soleil couchant"
+      src="../img/chemin_formulaire.jpg">
+    </section>
 
     <h1>Contactez-nous</h1>
 
@@ -31,47 +60,77 @@
 
       <input class="form" type="email" id="email" name="email" placeholder="Email"></br>
 
-      <textarea class="form" name="message" id="message">Votre texte</textarea>
+      <textarea class="form" name="message" id="message" rows="5">Votre texte</textarea>
 
 
       <div id="contact">
-        <button type="submit">
+        <button onclick="sendEmail()" type="submit">
           <a class="button" href="#">Envoyer</a>
         </button>
       </div>
     </form>
 
+    <div class="footer-mobile">
+      <div class="top-footer">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="low-footer">
+          <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+      </div>
+    </div>
+
   </main>
 
+  <footer class="footer-desktop">
+    <div class="top-footer">
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    <div class="low-footer">
+        <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+    </div>
+</footer>
 
-  <nav class="navbar-container">
-    <ul>
-      <li>
-        <div class="icon">
-          <i class="fa fa-home" href="#" ..aria-hidden="true"></i>
-        </div>
-      </li>
-      <li>
-        <div class="icon">
-          <i class="fa fa-coffee" href="#" ..aria-hidden="true"></i>
-        </div>
-      </li>
-      <li>
-        <div class="icon">
-          <i class="fa fa-users" href="#" ..aria-hidden="true"></i>
-        </div>
-      </li>
-      <li>
-        <div class="icon">
-          <i class="fa fa-paper-plane" href="#" ..aria-hidden="true"></i>
-        </div>
+<nav class="navbar-container">
+  <ul>
+    <li>
+      <div class="icon">
+        <a href="./index.html">
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="icon">
+        <a href="">
+          <i class="fa fa-coffee"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="icon">
+        <a href="./pages/who.html">
+          <i class="fa fa-users"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="icon">
+        <a href="./pages/contact.html">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </div>
+    </li>
+  </ul>
+</nav>
 
-      </li>
-    </ul>
-  </nav>
 
-
-
+<script src="../scripts/email.js"></script>
 </body>
 
 </html>
