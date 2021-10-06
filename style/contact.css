@@ -35,17 +35,13 @@ align-items: center;
 margin-top: 5% ;
 }
 
-
-
-/*telephone*/
-/* @media screen and (max-width:992px){
-
-
+.btn-send {
+    width: 20vw;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: #ace1fd;
 }
 
-
-
-/*ordinateur*/
 @media screen and (min-width:600px){
     .form{
         width: 30vw;
