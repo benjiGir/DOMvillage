@@ -134,32 +134,21 @@ ul li:first-child i {
     margin-right: 0.5em;
 }
 
-       /* A discuter */
-.first-card-button {
+
+.second-card-button {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    height: 8%;
+    height: 15%;
     padding-right: 1em;
-    margin-top: 2em;
-    margin-left: 14em;
-    margin-right: 0.5em;
-    background-color: rgb(163, 157, 157);
-    border-radius: 20px;
-    border: solid 1px black;
-}       /* A discuter */
-
-.first-card-button .button {
-    color: #2d2e2e;
 }
 
-/*.first-card-button button {
+.second-card-button button {
     height: 60%;
     width: 30%;
     margin-top: 2em;
     margin-left: 1em;
     border-radius: 20px;
-}*/
+}
 
 .first-card-button a {
     border-radius: 10px;
@@ -339,7 +328,6 @@ footer {
 .top-footer i  {
     color: #000000;
     font-size: 25px;
-
 }
 
 .low-footer {
