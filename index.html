@@ -1,55 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=375px, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <title>DOMVillage</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=375px, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/reset.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>DOMVillage</title>
 </head>
+
 <body class="wrapper">
+  <header>
+    <nav class="nav-desktop">
+      <div class="brand">
+        <img class="logo-desktop" src="./img/logo.png" alt="Logo du village" />
+      </div>
+      <div id="dateDisplay">
+      </div>
+      <ul class="nav-menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <div class="menu submenu">
+          <button class="btn-submenu">Activités</button>
+          <div class="submenu-content">
+            <a href="./pages/bar.html">Bar</a>
+            <a href="./pages/restaurant.html">Restaurant</a>
+            <a href="./pages/hotel.html">Hotel</a>
+            <a href="./pages/POI.html">Culture</a>
+          </div>
+        </div>
+        <li class="menu"><a href="./pages/who.html">Qui sommes nous ?</a></li>
+        <li class="menu"><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <!------------------------------------->
-    </header>
+  <main class="container">
+    <section class="hero">
+      <img class="container-img" src="./img/home.jpg" alt="Photo du village" />
+      <div class="logo-container">
+        <img class="logo" src="./img/logo.png" alt="Logo du village" />
+      </div>
+      <div class="hero-text">
+        <p>
+          DOM village, un village où il fait bon d'y coder
+        </p>
+      </div>
+    </section>
 
-    <main class="container">
+    <article class="article">
+      <div class="slideshow-container">
+        <div class="carousel">
+          <div class="slide">
+            <img class="slide-img" src="./img/home_1.jpg" alt="Photo de la place du village" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="./img/village-2.jpeg" alt="Photo de la place du village" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="./img/home_1.jpg" alt="Photo de la place du village" />
+          </div>
+        </div>
+      </div>
+      
+      <p>
+       Qui a dit que coder ne rime pas avec profiter ? Une place du village chaleureuse et conviviale vous attend.
+      </p>
+    </article>
+    <article class="article">
+      <div class="slideshow-container">
+        <div class="carousel">
+          <div class="slide">
+            <a href="./pages/bar.html">
+              <img class="slide-img" src="./img/bar-1.jpeg" alt="Photo de la place du village" />
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./pages/restaurant.html">
+              <img class="slide-img" src="./img/resto-1.jpeg" alt="Photo de la place du village" />
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./pages/POI.html">
+              <img class="slide-img" src="./img/POI-1.jpeg" alt="Photo de la place du village" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <p>
+        Envie d'une bonne bière, de manger ou tout simplement de s'amuser. Faite votre choix, il y a tout ce qu'il vous faut à DOM Village
+      </p>
+    </article>
 
-       
-    </main>
+    <div class="footer-mobile">
+      <div class="top-footer">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="low-footer">
+          <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+      </div>
+    </div>
 
-    <footer>
-        <!------------------------------------->
+  </main>
+
+    <footer class="footer-desktop">
+        <div class="top-footer">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="low-footer">
+            <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+        </div>
     </footer>
 
-        <nav class="navbar-container">
-            <ul >
-                <li>
-                        <div class="icon">
-                            <i class="fa fa-home" href="#" aria-hidden="true"></i>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <i class="fa fa-coffee" href="#"aria-hidden="true"></i>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <i class="fa fa-users" href="#" aria-hidden="true"></i>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <i class="fa fa-paper-plane" href="#" aria-hidden="true"></i>
-                        </div>
-                    
-                </li>
-            </ul>
-        </nav>
 
+  <nav class="navbar-container">
+    <ul>
+      <li>
+        <div class="icon">
+          <a href="./index.html">
+            <i class="fa fa-home"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <a href="">
+            <i class="fa fa-coffee"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <a href="./pages/who.html">
+            <i class="fa fa-users"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="icon">
+          <a href="./pages/contact.html">
+            <i class="fa fa-paper-plane"></i>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <script src="./scripts/app.js"></script>
 </body>
 </html>

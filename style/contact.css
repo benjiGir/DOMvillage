@@ -1,3 +1,4 @@
+
 h1{
     color:#678797;
     text-align: center;
@@ -19,9 +20,10 @@ justify-content: center;
 align-items: center;
 padding-top: 5px;
 }
+
 .header-img{
 width: 100vw;
-height: 40vh;
+height: 35vh;
 }
 
 
@@ -30,7 +32,7 @@ height: 90%;
 width: 100%;
 border-radius: 10px;
 align-items: center;
-
+margin-top: 5% ;
 }
 
 
