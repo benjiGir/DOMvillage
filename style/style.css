@@ -286,6 +286,14 @@ header {
         height: 100%;
     }
 
+    .container-img {
+        object-fit: cover;
+    }
+
+    .article > p {
+        font-size: 1.1rem;
+        margin: 2% 10% 2% 10%;    
+    }
     
     .footer-mobile {
         display: none;

@@ -73,8 +73,6 @@
         width: 100vw;
         background-color: #ace1fd;
         position: absolute;
-        margin-left: 10em;
-        margin-bottom: 10em;
     }
 
     .brand {
@@ -264,22 +262,14 @@
         font-size: 17px;
     }
 
+    .footer-mobile {
+        display: none;
+    }
 
-
-/************* FOOTER *****************/
-    footer {
-        position:fixed;
+    .footer-desktop {
+        display: block;
         width: 100%;
-        height: 11%;
-        bottom: 0;
-    }
-
-    .top-footer i  {
-        font-size: 40px;
-    }
-
-    .low-footer p  {
-        font-size: 25px;
+        height: 10vh;
     }
     
 }
