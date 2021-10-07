@@ -60,7 +60,6 @@ header {
     height: 50%;
     background: rgb(61, 61, 59);
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -111,6 +110,22 @@ header {
     margin: 0 3%;
     text-align: center;
     font-size: 1.2rem;
+}
+
+#displayDate {
+    grid-column: 1;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#displayTime {
+    grid-column: 3;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-img {
