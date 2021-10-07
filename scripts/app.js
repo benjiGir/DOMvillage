@@ -1,8 +1,25 @@
 const dateDisplay = document.getElementById('dateDisplay')
 const displayDate = document.getElementById('displayDate')
 const displayTime = document.getElementById('displayTime')
+const bookingBtn = document.querySelectorAll("[data-open]")
+const isVisible = "is-visible"
+const closeModal = document.querySelectorAll("[data-close]")
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+for(let el of bookingBtn) {
+    el.addEventListener("click", () => {
+        
+        const modalId = el.dataset.open
+        console.log(modalId);
+        document.getElementById(modalId).classList.add(isVisible)
+    })
+}
+
+for(let el of closeModal) {
+    el.addEventListener("click", () => {
+        el.parentElement.parentElement.parentElement.classList.remove(isVisible)
+    })
+}
 
 function clockTick () {
     const date = new Date()
@@ -15,5 +32,7 @@ function clockTick () {
         }
     }
 }
+
+
 
 setInterval(clockTick, 1000)
