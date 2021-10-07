@@ -5,140 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=375px, initial-scale=1.0">
     <link rel="stylesheet" href="../style/reset.css" type="text/css">
-    <link rel="stylesheet" href="../style/style.css" type="text/css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/bar.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/504485e57a.js"></script>
     
-    <title>Bars of DOMVillage</title>
+    <title>DOMVillage</title>
 </head>
 
 <body class="wrapper">
 
-    <header class="header">
-        <div class="container-img">
-            <img src="../img/header.bar.img.jpg" alt="Photo de cocktail">
-        </div>
-    </header>
+    <header>
+        <nav class="nav-desktop">
+          <div class="brand">
+            <img class="logo-desktop" src="./img/logo.png" alt="Logo du village" />
+          </div>
+          <div id="dateDisplay">
+          </div>
+          <div class="nav-menu">
+            <div class="menu"><a href="index.html">Home</a></div>
+            <div class="menu submenu">
+              <button class="btn-submenu">Activités</button>
+              <div class="submenu-content">
+                <a href="./pages/bar.html">Bar</a>
+                <a href="./pages/restaurant.html">Restaurant</a>
+                <a href="./pages/hotel.html">Hotel</a>
+                <a href="./pages/POI.html">Culture</a>
+              </div>
+            </div>
+            <div class="menu"><a href="./pages/who.html">Qui sommes nous ?</a></div>
+            <div class="menu"><a href="./pages/contact.html">Contact</a></div>
+          </div>
+        </nav>
+      </header>
 
     <main class="container">
+        <section class="hero">
+            <img class="container-img" src="../img/home.jpg" alt="Photo du village" />
+            <div class="logo-container">
+              <img class="logo" src="../img/logo.png" alt="Logo du village" />
+            </div>
+            <div class="hero-text">
+              <p>
+                Où manger à DOM Village ?
+              </p>
+            </div>
+          </section>
 
-        <div class="container-logo">
-            <img src="../img/logo.png" alt="Logo de la page">
-        </div>
 
-        <!------------ FIRST CARD ------------>
+        <div class="card">
 
-        <div class="first-card">
-
-            <div class="first-card-img">
+            <div class="card-img">
                 <img src="../img/NavBar.img.jpg" alt="Photo de bar à cocktail">
             </div>
 
-            <div class="first-card-bar-name">
-                <p>#####################</p>
+            <div class="card-bar-name">
+                <p>Le Nav Bar</p>
             </div>
 
-            <div class="first-card-text-description">
-                <p>######################</p>
+            <div class="card-text-description">
+                <p>""Trust me you can dance"" -Vodka</p>
             </div>
 
-            <div class="first-card-button">
-                <!--button-->
-                <a class="button" href="#"><strong>RESERVATION</strong></a>
-                <!--button-->
-            </div>
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button">Réservation</button>
+                </div>
+              </div>
 
 
         </div>
 
-        <div class="second-card">
+        <div class="card">
 
-            <div class="second-card-img">
+            <div class="card-img">
                 <img src="../img/GitPub.img.jpg" alt="Photo de Pub">
             </div>
 
-            <div class="second-card-bar-name">
-                <p>#####################</p>
+            <div class="card-bar-name">
+                <p>Le GitPub</p>
             </div>
 
-            <div class="second-card-text-description">
-                <p>######################</p>
+            <div class="card-text-description">
+                <p>""If you ask yourself if should come and drink or stay at home, REMEMBER fat people are always harder to kidnap"" -Beer</p>
             </div>
 
-            <div class="second-card-button">
-                <button>
-                <a class="button" href="#"><strong>DECOUVRIR</strong></a>
-                </button>
-            </div>
-
-
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button">Réservation</button>
+                </div>
+              </div>
         </div>
 
-        <div class="third-card">
 
-            <div class="third-card-img">
+        <div class="card">
+
+            <div class="card-img">
                 <img src="../img/WineBar.img.jpg" alt="Photo de bar à vin">
             </div>
 
-            <div class="third-card-bar-name">
-                <p>#####################</p>
+            <div class="card-bar-name">
+                <p>Le Wine bar</p>
             </div>
 
-            <div class="third-card-text-description">
-                <p>######################</p>
+            <div class="card-text-description">
+                <p>""Don't call your ex, stay smart"" -La villageoise</p>
             </div>
 
-            <div class="third-card-button">
-                <button>
-                    <a class="button" href="#"><strong>DECOUVRIR</strong></a>
-                </button>
-            </div>
-        </div>
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button">Réservation</button>
+                </div>
+              </div>
+    
+    </div>
 
-        <!--- footer --->
-
-        <footer>
+        <div class="footer-mobile">
             <div class="top-footer">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
             <div class="low-footer">
-                <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+              <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
             </div>
-        </footer>
+          </div>
         
-        <!--- Barre de navigation --->
 
     </main>
 
-        <nav class="navbar-container">
-            <ul >
-                <li>
-                        <div class="icon">
-                            <a class="fa fa-home" href="../index.html"></a>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <a class="fa fa-coffee" href="POI.html"></a>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <a class="fa fa-users" href="who.html"></a>
-                        </div>
-                </li>
-                <li>
-                        <div class="icon">
-                            <a class="fa fa-paper-plane" href="contact.html"></a>
-                        </div>
-                    
-                </li>
-            </ul>
-        </nav>
+    <footer class="footer-desktop">
+        <div class="top-footer">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="low-footer">
+          <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+        </div>
+      </footer>
 
-
+      <nav class="navbar-container">
+        <ul>
+          <li>
+            <div class="icon">
+              <a href="../index.html">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <a href="./who.html">
+                <i class="fa fa-users"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <a href="./contact.html">
+                <i class="fa fa-paper-plane"></i>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <script src="./scripts/app.js"></script>
+    
 </body>
 </html>

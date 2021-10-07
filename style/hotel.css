@@ -1,0 +1,285 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #89959b;
+    height: 55vh;
+    margin: 3rem 1rem 1rem 1rem;
+    border-radius: 20px;
+}
+
+.card-img img{
+    border-radius: 20px;
+    width: 100%;
+    height: 21vh;
+    object-fit: cover;
+}
+
+.card-name {
+    background-color:#cccc;
+    border-radius: 20px;
+    margin: 3% 15%;
+    text-align: center;
+}
+
+.card-text-description {
+    background-color: #cccc;
+    border-radius: 25px;
+    padding: 0 5%;
+    margin: 0 3%;
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    margin: 3%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.budget {
+    background-color: #cccc;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 20px;
+}
+
+.budget-container {
+    width: 100%;
+    padding: 0 15%;
+}
+
+.card-button {
+    background-color: #ace1fd;
+    height: 5vh;
+    border-radius: 20px;
+
+}  
+
+
+@media screen and (min-width: 600px) {
+
+    /************* NAVBAR Mobile qui disparait *****************/
+    .navbar-container {
+        display: none;
+    }
+
+    /****************** NAVBAR DESKTOP qui apparait *****************/
+    .nav-desktop {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100vw;
+        background-color: #ace1fd;
+        position: absolute;
+        margin-left: 10em;
+        margin-bottom: 10em;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+    }
+
+    .logo-desktop {
+        width: 50%;
+    }
+
+    #dateDisplay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 45vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu > a {
+        text-decoration: none;
+        color: #181818;
+    }
+
+    .submenu {
+        height: 100%;
+    }
+
+    .btn-submenu {
+      outline: none;
+      border: none;
+      background-color: inherit;
+      color: #181818;
+      height: 100%;  
+    }
+
+    .submenu:hover .submenu-content {
+        display: block;
+    }
+
+    .submenu-content {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        padding: 25px;
+        background-color: #ace1fd;
+        opacity: .8;
+        border-radius: 10%;
+        
+    }
+
+    .submenu-content > a {
+        margin: 10% 0;
+        text-decoration: none;
+        color: #181818;
+        height: 100%;
+    }
+
+    /**************** Image du header *********************/
+
+    .header {
+        display: none;
+    }
+
+    .header .container-img {
+        height: 20vh;
+    }
+
+    .header .container-img  img{
+        height: 120vh;
+        width: 100vw;
+    }
+
+    /****** logo **********/
+    .container-logo img {
+        display: none;
+    }
+
+    /********* Container Cards **********/
+    .container-cards {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-right: 10em;
+        position: relative;
+    }
+
+    /********** Firt Card ***********/
+    .first-card {
+        display: inline-block;
+        max-width: 500px;
+        min-width: 300px;
+        margin-left: 4em;
+        margin-top: 20rem;
+        transition: transform .6s ease;
+    }
+
+    .first-card:hover {
+        background-color: rgb(83, 81, 81);
+        transition: 0.50s ease-in-out;
+        transform: scale(1.2);
+    }
+
+    .first-card-bar-name {
+        font-size: 17px;
+    }
+
+    .first-card-text-description {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+    
+    /********** Second Card *********/
+    .second-card {
+        display: inline-block;
+        max-width: 500px;
+        min-width: 300px;
+        margin-left: 5em;
+        margin-top: 20rem;
+        transition: transform .6s ease;
+    }
+
+    .second-card:hover {
+        background-color: rgb(83, 81, 81);
+        transition: 0.50s ease-in-out;
+        transform: scale(1.2);
+    }
+
+    .second-card-bar-name {
+        font-size: 17px;
+    }
+
+    .second-card-text-description {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+
+    /*********** Third Card **************/
+    .third-card {
+        display: inline-block;
+        max-width: 400px;
+        min-width: 300px;
+        margin-left: 5em;
+        margin-top: 20rem;
+        transition: transform .6s ease;
+    }
+
+    .third-card:hover {
+        background-color: rgb(83, 81, 81);
+        transition: 0.50s ease-in-out;
+        transform: scale(1.2);
+    }
+
+    .third-card-bar-name {
+        font-size: 17px;
+    }
+
+    .third-card-text-description {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+
+
+/************* FOOTER *****************/
+    footer {
+        position:fixed;
+        width: 100%;
+        height: 11%;
+        bottom: 0;
+    }
+
+    .top-footer i  {
+        font-size: 40px;
+    }
+
+    .low-footer p  {
+        font-size: 25px;
+    }
+    
+}

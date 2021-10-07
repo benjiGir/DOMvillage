@@ -160,11 +160,17 @@ header {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    --slide-count: 3;
+    --slide-count-first: 3;
+    --slide-count-second: 4;
 }
 
-.carousel {
-    width: calc(100% * var(--slide-count));
+.first-carousel {
+    width: calc(100% * var(--slide-count-first));
+    display: flex;
+}
+
+.second-carousel {
+    width: calc(100% * var (--slide-count-second));
     display: flex;
 }
 

@@ -9,8 +9,10 @@ function clockTick () {
     if (window.matchMedia("(min-width: 600px)").matches) {
         dateDisplay.innerHTML = `Nous sommes le ${date.toLocaleDateString(undefined, options)} - ${date.toLocaleTimeString('fr-FR')}`
     } else {
-        displayDate.innerHTML = `${date.toLocaleDateString()}`
-        displayTime.innerHTML = `${date.toLocaleTimeString('fr-FR')}`
+        if ((typeof(displayDate) != "undefined" && displayDate != null)) {
+            displayDate.innerHTML = `${date.toLocaleDateString()}`
+            displayTime.innerHTML = `${date.toLocaleTimeString('fr-FR')}`
+        }
     }
 }
 
