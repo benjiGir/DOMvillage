@@ -299,6 +299,10 @@
         width: 8rem;
     }
 
+    .link-activities {
+        display: none;
+    }
+
     .card-name {
         background-color:#cccc;
         border-radius: 20px;

@@ -189,15 +189,6 @@
         height: 100%;
     }
 
-
-    .menu a{
-        transform: scale(5);
-    }
-
-    .menu a:hover{
-        text-transform: uppercase;
-    }
-
     .menu {
         position: relative;
     }
@@ -308,6 +299,11 @@
     .budget {
         width: 8rem;
     }
+
+    .link-activities {
+        display: none;
+    }
+
     .footer-mobile {
         display: none;
     }
