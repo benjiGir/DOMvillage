@@ -46,9 +46,9 @@
         <img class="logo" src="../img/logo.png" alt="Logo du village" />
       </div>
       <div class="hero-text">
-        <p>
+        <h1>
           Où manger à DOM Village ?
-        </p>
+        </h1>
       </div>
     </section>
 
@@ -79,7 +79,7 @@
 
         </div>
         <div>
-          <button class="card-button">Réservation</button>
+          <button class="card-button open-modal" data-open="modal1">Réservation</button>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
 
         </div>
         <div>
-          <button class="card-button">Réservation</button>
+          <button class="card-button open-modal" data-open="modal2">Réservation</button>
         </div>
       </div>
     </div>
@@ -147,12 +147,54 @@
 
         </div>
         <div>
-          <button class="card-button open-modal" data-open="modal1">Réservation</button>
+          <button class="card-button open-modal" data-open="modal3">Réservation</button>
         </div>
       </div>
     </div>
 
+    <div class="link-activities">
+      <a href="./bar.html">Bar</a>
+      <a href="./hotel.html">Hotel</a>
+      <a href="./POI.html">Activités</a>
+    </div>
+
     <div class="modal" id="modal1">
+      <div class="modal-dialog">
+        <header class="modal-header">
+          <button class="close-modal" aria-label="close modal" data-close>X</button>
+        </header>
+        <section class="modal-content">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name">
+          <label for="phone">Telephone</label>
+          <input type="tel" name="phone" id="phone">
+          <label for="nbPerson">Personnes</label>
+          <input type="number" name="nbPerson" id="nbPerson">
+          <label for="date">Date</label>
+          <input type="datetime-local" name="date" id="date">
+          <button type="submit">Réserver</button>
+        </section>
+      </div>
+    </div>    
+    <div class="modal" id="modal2">
+      <div class="modal-dialog">
+        <header class="modal-header">
+          <button class="close-modal" aria-label="close modal" data-close>X</button>
+        </header>
+        <section class="modal-content">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name">
+          <label for="phone">Telephone</label>
+          <input type="tel" name="phone" id="phone">
+          <label for="nbPerson">Personnes</label>
+          <input type="number" name="nbPerson" id="nbPerson">
+          <label for="date">Date</label>
+          <input type="datetime-local" name="date" id="date">
+          <button type="submit">Réserver</button>
+        </section>
+      </div>
+    </div>    
+    <div class="modal" id="modal3">
       <div class="modal-dialog">
         <header class="modal-header">
           <button class="close-modal" aria-label="close modal" data-close>X</button>
