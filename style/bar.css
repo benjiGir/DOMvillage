@@ -105,6 +105,15 @@
         height: 100%;
     }
 
+
+    .menu a{
+        transform: scale(5);
+    }
+
+    .menu a:hover{
+        text-transform: uppercase;
+    }
+
     .menu {
         position: relative;
     }
@@ -154,13 +163,17 @@
         display: none;
     }
 
-    .header .container-img {
-        height: 20vh;
+    /*.header .container-img {
+        height: 60vh;
     }
 
     .header .container-img  img{
-        height: 120vh;
+        height: 100%;
         width: 100vw;
+    }*/
+
+    .hero .container-img {
+        height: 50vh;
     }
 
     /****** logo **********/
@@ -168,64 +181,63 @@
         display: none;
     }
 
+    .hero-text {
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero-text p {
+        font-weight: bold;
+        font-size: 55px;
+        color: white;
+        height: 100%;
+    }
+
     /********* Container Cards **********/
-    .container-cards {
+    /*.container-cards {
         display: flex;
         justify-content: center;
         justify-content: space-around;
         margin-right: 10em;
         position: relative;
+    }*/
+
+    .container-cards {
+        flex-flow: row wrap;
+        justify-content: center;
+        display: inline-flex;
+        margin-bottom: 3rem;
     }
 
+    .card {
+        width: 25vw;
+        margin: 2.5%;
+        transition: transform .6s ease;
+    }
+    
+
     /********** Firt Card ***********/
-    .first-card {
-        display: inline-block;
-        max-width: 500px;
+    /*.card {
+        display: flex;
+        max-width: 400px;
         min-width: 300px;
         margin-left: 4em;
         margin-top: 20rem;
         transition: transform .6s ease;
-    }
+    }*/
 
-    .first-card:hover {
+    .card:hover {
         background-color: rgb(83, 81, 81);
-        transition: 0.50s ease-in-out;
-        transform: scale(1.2);
+        transition: 0.6s ease-in-out;
+        transform: scale(1.2) ;
     }
 
-    .first-card-bar-name {
+    .card-bar-name {
         font-size: 17px;
     }
 
-    .first-card-text-description {
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-    }
-    
-    /********** Second Card *********/
-    .second-card {
-        display: inline-block;
-        max-width: 500px;
-        min-width: 300px;
-        margin-left: 5em;
-        margin-top: 20rem;
-        transition: transform .6s ease;
-    }
-
-    .second-card:hover {
-        background-color: rgb(83, 81, 81);
-        transition: 0.50s ease-in-out;
-        transform: scale(1.2);
-    }
-
-    .second-card-bar-name {
-        font-size: 17px;
-    }
-
-    .second-card-text-description {
+    .card-text-description {
         height: 30%;
         display: flex;
         justify-content: center;
@@ -233,35 +245,9 @@
         font-size: 17px;
     }
 
-
-    /*********** Third Card **************/
-    .third-card {
-        display: inline-block;
-        max-width: 400px;
-        min-width: 300px;
-        margin-left: 5em;
-        margin-top: 20rem;
-        transition: transform .6s ease;
+    .budget {
+        width: 8rem;
     }
-
-    .third-card:hover {
-        background-color: rgb(83, 81, 81);
-        transition: 0.50s ease-in-out;
-        transform: scale(1.2);
-    }
-
-    .third-card-bar-name {
-        font-size: 17px;
-    }
-
-    .third-card-text-description {
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-    }
-
     .footer-mobile {
         display: none;
     }
