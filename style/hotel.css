@@ -1,3 +1,8 @@
+.container-cards {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -237,15 +242,6 @@
         display: none;
     }
 
-    /*.header .container-img {
-        height: 60vh;
-    }
-
-    .header .container-img  img{
-        height: 100%;
-        width: 100vw;
-    }*/
-
     .hero .container-img {
         height: 50vh;
     }
@@ -261,21 +257,13 @@
         justify-content: flex-end;
     }
 
-    .hero-text p {
+    .hero-text h1 {
         font-weight: bold;
         font-size: 55px;
         color: white;
         height: 100%;
+        margin-bottom: 70px;
     }
-
-    /********* Container Cards **********/
-    /*.container-cards {
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        margin-right: 10em;
-        position: relative;
-    }*/
 
     .container-cards {
         flex-flow: row wrap;
@@ -289,17 +277,6 @@
         margin: 2.5%;
     }
     
-
-    /********** Firt Card ***********/
-    /*.card {
-        display: flex;
-        max-width: 400px;
-        min-width: 300px;
-        margin-left: 4em;
-        margin-top: 20rem;
-        transition: transform .6s ease;
-    }*/
-
     .card:hover {
         background-color: rgb(83, 81, 81);
         transition: 0.6s ease-in-out;
