@@ -24,6 +24,7 @@ padding-top: 5px;
 .header-img{
 width: 100vw;
 height: 35vh;
+object-fit: cover;
 }
 
 
@@ -35,21 +36,21 @@ align-items: center;
 margin-top: 5% ;
 }
 
-
-
-/*telephone*/
-/* @media screen and (max-width:992px){
-
-
+.btn-send {
+    width: 20vw;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #ace1fd;
 }
 
-
-
-/*ordinateur*/
 @media screen and (min-width:600px){
     .form{
         width: 30vw;
         margin:1%;
+    }
+
+    .container {
+        height: 90vh;
     }
 
 }

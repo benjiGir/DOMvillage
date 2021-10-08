@@ -1,113 +1,3 @@
-
-
-* {
-    font-family: montserrat, sans-serif;
-}
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
-
-}
-
-
-             /*********************  NAV BAR  **********************/
-
-
-.navbar-container {
-    bottom: 0;
-    /*order: 2;*/
-    height: 10vh;
-    width: 100%;
-    background-color: #ace1fd;
-    position: fixed;
-}
-
-.navbar-container ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 10px;
-    margin-left: -30px;
-}
-
-.navbar-container ul li {
-    list-style: none;
-    padding-top: 5px;
-}
-
-.navbar-container ul li a  {
-    color: #181818;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-ul li:first-child i {
-    font-size: 30px;
-}
-
-
-
-        /*****************   MAIN CONTAINER    *************/
-
-
-.container {
-    order: 1;
-    height: 250vh;
-    width: 100%;
-    background-color: #e4dcdc;
-}
-
-.header {
-    width: 100%;
-    height: 29vh;
-}
-
-.header .container-img img {
-    width: 100%;
-    height: 37vh;
-    background-position:center;
-    position: relative;
-}
-
-        /********************  LOGO  ********************/
-
-.container-logo {
-    height: 13vh;
-    display: flex;
-    justify-content: center;
-}
-
-.container-logo img {
-    border-radius: 50%;
-    width: 25%;
-    /*height: 100%;*/
-    position: absolute;
-
-    }
-    
-    .title  {
-        display: flex;
-        justify-content: center;
-        background-color: #ace1fd;
-        height: 5vh;
-        align-items: center;  
-        margin-top: 1rem;
-        border-radius: 20px;
-        margin-left: 1em;
-        margin-right: 2em;
-        color:#181818
-    }
-
-
-
-    
-       /*******************  FIRST CARD  ************************/
-
-
-
 .card {
     display: flex;
     flex-direction: column;
@@ -121,6 +11,7 @@ ul li:first-child i {
     border-radius: 20px;
     width: 100%;
     height: 21vh;
+    object-fit: cover;
 }
 
 .card-resto-name {
@@ -164,50 +55,272 @@ ul li:first-child i {
     height: 5vh;
     border-radius: 20px;
 
-}
+}       
 
-
-          /************************  FOOTER  ***************************/
-
-
-footer {
-    background: rgb(92, 94, 97);
-    height: 17vh;
-    margin-top: 4em;
-    display: block;
-    justify-content: center;
-}
-
-.top-footer {
-    width: 100%;
-    height: 50%;
-    background: #cccccc;
+.modal {
+    position: fixed;
+    inset: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .35s ease-in;
 }
 
-
-.top-footer i  {
-    color: rgb(231, 231, 221);
-    font-size: 25px;
+.modal.is-visible {
+    visibility: visible;
+    opacity: 1;
 }
 
-.top-footer i {
-    color:#181818
+.modal-dialog {
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    overflow: auto;
+    cursor: default;
 }
 
-.low-footer {
-    width: 100%;
-    height: 50%;
-    background: #cccccc;
+.modal-dialog > * {
+    padding: 1rem;
+}
+
+.modal-header{
+    background-color: #ace1fd;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
-.low-footer p {
-    color:#181818;
-    font-size: 12px;
+.close-modal {
+    border-radius: 5px;
+}
+
+.modal-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.modal-content > input {
+    margin-bottom: 5%;
+}
+
+.modal-content > button {
+    background-color: #ace1fd;
+    border-radius: 20px;
+    width: 40%;
+    height: 5vh;
+    margin: 2% 0 0 50%;
+}
+
+.modal-footer {
+    background-color: #3d3d3b;
+    width: 100%;
+}
+
+.link-activities {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.link-activities > a {
+    text-decoration: none;
+    color: #181818;
+    background-color: #ace1fd;
+    border-radius: 20px;
+    padding: 2%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+          
+    
+@media screen and (min-width: 600px) {
+
+    /************* NAVBAR Mobile qui disparait *****************/
+    .navbar-container {
+        display: none;
+    }
+
+    /****************** NAVBAR DESKTOP qui apparait *****************/
+    .nav-desktop {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        width: 100vw;
+        background-color: #ace1fd;
+        position: absolute;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+    }
+
+    .logo-desktop {
+        width: 50%;
+    }
+
+    #dateDisplay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw;
+    }
+
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 45vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu > a {
+        text-decoration: none;
+        color: #181818;
+    }
+
+    .submenu {
+        height: 100%;
+    }
+
+    .btn-submenu {
+        outline: none;
+        border: none;
+        background-color: inherit;
+        color: #181818;
+        height: 100%;  
+    }
+
+    .submenu:hover .submenu-content {
+        display: block;
+    }
+
+    .submenu-content {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        padding: 25px;
+        background-color: #ace1fd;
+        opacity: .8;
+        border-radius: 10%;
+        
+    }
+
+    .submenu-content > a {
+        margin: 10% 0;
+        text-decoration: none;
+        color: #181818;
+        height: 100%;
+    }
+
+    /**************** Image du header *********************/
+
+    .header {
+        display: none;
+    }
+
+    /*.header .container-img {
+        height: 60vh;
+    }
+
+    .header .container-img  img{
+        height: 100%;
+        width: 100vw;
+    }*/
+
+    .hero .container-img {
+        height: 50vh;
+    }
+
+    /****** logo **********/
+    .container-logo img {
+        display: none;
+    }
+
+    .hero-text {
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero-text h1 {
+        font-weight: bold;
+        font-size: 55px;
+        color: white;
+        height: 100%;
+        margin-bottom: 70px;
+    }
+
+    .container-cards {
+        flex-flow: row wrap;
+        justify-content: center;
+        display: inline-flex;
+        margin-bottom: 3rem;
+    
+    }
+
+    .card {
+        width: 25vw;
+        margin: 2.5%;
+        transition: 0.6s ease-in-out;
+
+    }
+
+    .card:hover {
+        background-color: rgb(83, 81, 81);
+        transition: 0.6s ease-in-out;
+        transform: scale(1.2);
+    }
+
+    .card-bar-name {
+        font-size: 17px;
+    }
+
+    .card-text-description {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+    .budget {
+        width: 8rem;
+    }
+
+    .link-activities {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: block;
+        width: 100%;
+        height: 10vh;
+    }
+    
+    
 }

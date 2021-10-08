@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -10,13 +10,15 @@
   <link rel="stylesheet" href="../style/contact.css">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&gitdisplay=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
     (function() {
     emailjs.init("user_j9eENNgQWhyCmKflMVmeb");
     })();
   </script>
-  <title>Contact Us - DOMvillage</title>
+  <title>DOMvillage</title>
 
 </head>
 
@@ -24,24 +26,24 @@
   <header>
     <nav class="nav-desktop">
       <div class="brand">
-        <img class="logo-desktop" src="./img/logo.png" alt="Logo du village" />
+        <img class="logo-desktop" src="../img/logo.png" alt="Logo du village" />
       </div>
       <div id="dateDisplay">
       </div>
-      <ul class="nav-menu">
-        <li class="menu"><a href="index.html">Home</a></li>
+      <div class="nav-menu">
+        <div class="menu"><a href="../index.html">Home</a></div>
         <div class="menu submenu">
           <button class="btn-submenu">Activités</button>
           <div class="submenu-content">
-            <a href="./pages/bar.html">Bar</a>
-            <a href="./pages/restaurant.html">Restaurant</a>
-            <a href="./pages/hotel.html">Hotel</a>
-            <a href="./pages/POI.html">Culture</a>
+            <a href="./bar.html">Bar</a>
+            <a href="./restaurant.html">Restaurant</a>
+            <a href="./hotel.html">Hotel</a>
+            <a href="./POI.html">Culture</a>
           </div>
         </div>
-        <li class="menu"><a href="./pages/who.html">Qui sommes nous ?</a></li>
-        <li class="menu"><a href="./pages/contact.html">Contact</a></li>
-      </ul>
+        <div class="menu"><a href="./who.html">Qui sommes nous ?</a></div>
+        <div class="menu"><a href="./contact.html">Contact</a></div>
+      </div>
     </nav>
   </header>
 
@@ -55,22 +57,17 @@
 
     <form class="contactForm" name="myForm" >
 
-      <input class="form" type="text"  value="" id="name" name="name" placeholder="Prenom Nom"></br>
-      <input class="form" type="email" id="email" name="email" placeholder="Email"></br>
-      <select class="form" name="but" id="but">
-        <option value="But">Selectionner un motif</option>
+      <input class="form" type="text" id="name" name="name" placeholder="Prenom Nom">
+      <input class="form" type="email" id="email" name="email" placeholder="Email">
+      <select class="form" name="but" id="goal">
+        <option>Selectionner un motif</option>
         <option value="Book">Reserver une expérience</option>
         <option value="Info">Se renseigner</option>
       </select>
 
-      <textarea class="form" name="message" id="message" rows="5">Votre texte</textarea>
-
-
-      <div id="contact">
-        <button onclick="sendEmail()" type="submit">
-          <a class="button" href="#">Envoyer</a>
-        </button>
-      </div>
+      <textarea class="form" name="message" id="message" rows="5" placeholder="Une petit message pour nous?"></textarea>
+      
+        <button class="btn-send" onclick="sendEmail()" type="button">Envoyer</button>
     </form>
 
     <div class="footer-mobile">
@@ -103,28 +100,21 @@
   <ul>
     <li>
       <div class="icon">
-        <a href="./index.html">
+        <a href="../index.html">
           <i class="fa fa-home"></i>
         </a>
       </div>
     </li>
     <li>
       <div class="icon">
-        <a href="">
-          <i class="fa fa-coffee"></i>
-        </a>
-      </div>
-    </li>
-    <li>
-      <div class="icon">
-        <a href="./pages/who.html">
+        <a href="./who.html">
           <i class="fa fa-users"></i>
         </a>
       </div>
     </li>
     <li>
       <div class="icon">
-        <a href="./pages/contact.html">
+        <a href="#">
           <i class="fa fa-paper-plane"></i>
         </a>
       </div>
@@ -134,6 +124,7 @@
 
 
 <script src="../scripts/email.js"></script>
+<script src="../scripts/app.js" ></script>
 </body>
 
 </html>
