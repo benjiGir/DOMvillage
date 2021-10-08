@@ -300,6 +300,11 @@
         width: 8rem;
     }
 
+    .modal-dialog {
+        width: 35%;
+        height: 50%;
+    }
+
     .link-activities {
         display: none;
     }
