@@ -239,15 +239,6 @@
         display: none;
     }
 
-    /*.header .container-img {
-        height: 60vh;
-    }
-
-    .header .container-img  img{
-        height: 100%;
-        width: 100vw;
-    }*/
-
     .hero .container-img {
         height: 50vh;
     }
@@ -306,6 +297,11 @@
 
     .budget {
         width: 8rem;
+    }
+
+    .modal-dialog {
+        width: 35%;
+        height: 50%;
     }
 
     .link-activities {
