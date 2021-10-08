@@ -1,3 +1,4 @@
+
 .card {
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@
     background-color: #cccc;
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 40vw;
     height: 5vh;
     border-radius: 20px;
 }
