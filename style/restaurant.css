@@ -122,66 +122,8 @@
     width: 100%;
 }
 
-@media screen and (min-width: 600px){
 
-    .card {
-        display: flex;
-        flex-direction: column;
-        background: #89959b;
-        height: 55vh;
-        margin: 3rem 1rem 1rem 1rem;
-        border-radius: 20px;
-    }
-    
-    .card-img img{
-        border-radius: 20px;
-        width: 100%;
-        height: 21vh;
-        object-fit: cover;
-    }
-    
-    .card-bar-name {
-        background-color:#cccc;
-        border-radius: 20px;
-        margin: 3% 15%;
-        text-align: center;
-    }
-    
-    .card-text-description {
-        background-color: #cccc;
-        border-radius: 25px;
-        padding: 0 5%;
-        margin: 0 3%;
-        text-align: center;
-    }
-    
-    .information{
-        display: flex;
-        margin: 3%;
-        justify-content: space-around;
-        align-items: flex-end;
-    }
-    
-    .budget {
-        background-color: #cccc;
-        display: flex;
-        flex-direction: column;
-        width: 25vw;
-        height: 5vh;
-        border-radius: 20px;
-    }
-    
-    .budget-container {
-        width: 100%;
-        padding: 0 15%;
-    }
-    
-    .card-button {
-        background-color: #ace1fd;
-        height: 5vh;
-        border-radius: 20px;
-    
-    }       
+
           
     
     @media screen and (min-width: 600px) {
@@ -378,7 +320,23 @@
             width: 100%;
             height: 10vh;
         }
-    }
-
-}
     
+.link-activities {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.link-activities > a {
+    text-decoration: none;
+    color: #181818;
+    background-color: #ace1fd;
+    border-radius: 20px;
+    padding: 2%;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+}
