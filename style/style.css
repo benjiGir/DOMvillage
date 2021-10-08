@@ -286,13 +286,48 @@ header {
         height: 100%;
     }
 
+    .container {
+        height: 150vh;
+    }
+
+    .hero {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #displayDate, #displayTime {
+        display: none;
+    }
+    
+    .logo-container {
+        display: none;
+    }
+
     .container-img {
+        height: 50vh;
         object-fit: cover;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
+
+    .slideshow-container {
+        height: 80%;
+    }
+
+    .slide-img {
+        height: 40vh;
+    }
+
+    .article {
+        height: 60vh;
+        margin-top: 2%;
     }
 
     .article > p {
         font-size: 1.1rem;
-        margin: 2% 10% 2% 10%;    
+        margin: 1% 10% 2% 10%;    
     }
     
     .footer-mobile {
