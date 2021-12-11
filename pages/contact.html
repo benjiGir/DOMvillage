@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/reset.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/contact.css">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&gitdisplay=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+    emailjs.init("user_j9eENNgQWhyCmKflMVmeb");
+    })();
+  </script>
+  <title>DOMvillage</title>
+
+</head>
+
+<body class="wrapper">
+  <header>
+    <nav class="nav-desktop">
+      <div class="brand">
+        <img class="logo-desktop" src="../img/logo.png" alt="Logo du village" />
+      </div>
+      <div id="dateDisplay">
+      </div>
+      <div class="nav-menu">
+        <div class="menu"><a href="../index.html">Home</a></div>
+        <div class="menu submenu">
+          <button class="btn-submenu">Activités</button>
+          <div class="submenu-content">
+            <a href="./bar.html">Bar</a>
+            <a href="./restaurant.html">Restaurant</a>
+            <a href="./hotel.html">Hotel</a>
+            <a href="./POI.html">Culture</a>
+          </div>
+        </div>
+        <div class="menu"><a href="./who.html">Qui sommes nous ?</a></div>
+        <div class="menu"><a href="./contact.html">Contact</a></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <img class="header-img" alt="Un beau chemin en bois vers la mer sous le soleil couchant"
+      src="../img/chemin_formulaire.jpg">
+    </section>
+
+    <h1>Contactez-nous</h1>
+
+    <form class="contactForm" name="myForm" >
+
+      <input class="form" type="text" id="name" name="name" placeholder="Prenom Nom">
+      <input class="form" type="email" id="email" name="email" placeholder="Email">
+      <select class="form" name="but" id="goal">
+        <option>Selectionner un motif</option>
+        <option value="Book">Reserver une expérience</option>
+        <option value="Info">Se renseigner</option>
+      </select>
+
+      <textarea class="form" name="message" id="message" rows="5" placeholder="Une petit message pour nous?"></textarea>
+      
+        <button class="btn-send" onclick="sendEmail()" type="button">Envoyer</button>
+    </form>
+
+    <div class="footer-mobile">
+      <div class="top-footer">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="low-footer">
+          <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer-desktop">
+    <div class="top-footer">
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    <div class="low-footer">
+        <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+    </div>
+</footer>
+
+<nav class="navbar-container">
+  <ul>
+    <li>
+      <div class="icon">
+        <a href="../index.html">
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="icon">
+        <a href="./who.html">
+          <i class="fa fa-users"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="icon">
+        <a href="#">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+<script src="../scripts/email.js"></script>
+<script src="../scripts/app.js" ></script>
+</body>
+
+</html>

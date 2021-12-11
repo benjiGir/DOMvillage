@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=375px, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/reset.css" type="text/css">
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
+    <link rel="stylesheet" href="../style/hotel.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&gitdisplay=swap" rel="stylesheet">    
+    <title>DOMVillage</title>
+</head>
+
+<body class="wrapper">
+    <header>
+        <nav class="nav-desktop">
+          <div class="brand">
+            <img class="logo-desktop" src="../img/logo.png" alt="Logo du village" />
+          </div>
+          <div id="dateDisplay">
+          </div>
+          <div class="nav-menu">
+            <div class="menu"><a href="../index.html">Home</a></div>
+            <div class="menu submenu">
+              <button class="btn-submenu">Activités</button>
+              <div class="submenu-content">
+                <a href="./bar.html">Bar</a>
+                <a href="./restaurant.html">Restaurant</a>
+                <a href="./hotel.html">Hotel</a>
+                <a href="./POI.html">Culture</a>
+              </div>
+            </div>
+            <div class="menu"><a href="./who.html">Qui sommes nous ?</a></div>
+            <div class="menu"><a href="./contact.html">Contact</a></div>
+          </div>
+        </nav>
+      </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <img class="container-img" src="../img/home.jpg" alt="Photo du village" />
+            <div class="logo-container">
+              <img class="logo" src="../img/logo.png" alt="Logo du village" />
+            </div>
+            <div class="hero-text">
+              <h1>
+                Où Dormir à DOM Village ?
+              </h1>
+            </div>
+          </section>
+          
+        <div class="container-cards">
+        <div class="card">
+
+            <div class="card-img">
+                <img src="../img/hotel1.img.jpg" alt="Photo d'hôtel l'île de Java face à la mer ">
+            </div>
+
+            <div class="card-name">
+                <p>L'ILE DE JAVA</p>
+            </div>
+
+            <div class="card-text-description">
+                <p>Magnifique hotel face à la mer où vous aller pouvoir rêver des codes avec le bercement de vagues</p>
+            </div>
+
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button open-modal" data-open="modal1">Réservation</button>
+                </div>
+              </div>
+
+
+        </div>
+
+        <div class="card">
+
+            <div class="card-img">
+                <img src="../img/hotel2.img.jpg" alt="Photo d'hôtel Le margin-flex Resort ">
+            </div>
+
+            <div class="card-name">
+                <p>LE MARGIN-FLEX RESORT</p>
+            </div>
+
+            <div class="card-text-description">
+                <p>Petit village des maisonettes à l'ancienne où bien se reposer pour bien se concentrer aux beaux projets futurs</p>
+            </div>
+
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button open-modal" data-open="modal2">Réservation</button>
+                </div>
+              </div>
+
+
+        </div>
+
+        <div class="card">
+
+            <div class="card-img">
+                <img src="../img/hotel3.img.jpg" alt="Photo d'hôtel Les voiles au vent">
+            </div>
+
+            <div class="card-name">
+                <p>LES VOILES AU VENT</p>
+            </div>
+
+            <div class="card-text-description">
+                <p>La mer, le ciel et les montagnes. On ne peut pas rêver mieux? </br> Venez vous ressourcer.</p>
+            </div>
+
+            <div class="information">
+                <div class="budget">
+                  <div class="budget-container">
+                    <i class="fa fa-eur" aria-hidden="true"></i>
+                  </div>
+                  <div class="budget-container">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+        
+                </div>
+                <div>
+                  <button class="card-button open-modal" data-open="modal3">Réservation</button>
+                </div>
+              </div>
+        </div>
+        </div>
+
+        <div class="link-activities">
+          <a href="./bar.html">Bar</a>
+          <a href="./restaurant.html">Restaurant</a>
+          <a href="./POI.html">Activités</a>
+        </div>
+
+        <div class="footer-mobile">
+          <div class="top-footer">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+          <div class="low-footer">
+            <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+          </div>
+        </div>
+
+        <div class="modal" id="modal1">
+          <div class="modal-dialog">
+            <header class="modal-header">
+              <button class="close-modal" aria-label="close modal" data-close>X</button>
+            </header>
+            <section class="modal-content">
+              <label for="name">Nom</label>
+              <input type="text" name="name" id="name">
+              <label for="phone">Telephone</label>
+              <input type="tel" name="phone" id="phone">
+              <label for="nbPerson">Personnes</label>
+              <input type="number" name="nbPerson" id="nbPerson">
+              <label for="date">Date</label>
+              <input type="datetime-local" name="date" id="date">
+              <button type="submit">Réserver</button>
+            </section>
+          </div>
+        </div>    
+        <div class="modal" id="modal2">
+          <div class="modal-dialog">
+            <header class="modal-header">
+              <button class="close-modal" aria-label="close modal" data-close>X</button>
+            </header>
+            <section class="modal-content">
+              <label for="name">Nom</label>
+              <input type="text" name="name" id="name">
+              <label for="phone">Telephone</label>
+              <input type="tel" name="phone" id="phone">
+              <label for="nbPerson">Personnes</label>
+              <input type="number" name="nbPerson" id="nbPerson">
+              <label for="date">Date</label>
+              <input type="datetime-local" name="date" id="date">
+              <button type="submit">Réserver</button>
+            </section>
+          </div>
+        </div>    
+        <div class="modal" id="modal3">
+          <div class="modal-dialog">
+            <header class="modal-header">
+              <button class="close-modal" aria-label="close modal" data-close>X</button>
+            </header>
+            <section class="modal-content">
+              <label for="name">Nom</label>
+              <input type="text" name="name" id="name">
+              <label for="phone">Telephone</label>
+              <input type="tel" name="phone" id="phone">
+              <label for="nbPerson">Personnes</label>
+              <input type="number" name="nbPerson" id="nbPerson">
+              <label for="date">Date</label>
+              <input type="datetime-local" name="date" id="date">
+              <button type="submit">Réserver</button>
+            </section>
+          </div>
+        </div> 
+
+    </main>
+
+    <footer class="footer-desktop">
+      <div class="top-footer">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="low-footer">
+        <p>© 2021 DOMvillage.com, Inc. Tous droits réservé</p>
+      </div>
+    </footer>
+
+    <nav class="navbar-container">
+      <ul>
+        <li>
+          <div class="icon">
+            <a href="../index.html">
+              <i class="fa fa-home"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <a href="./who.html">
+              <i class="fa fa-users"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <a href="./contact.html">
+              <i class="fa fa-paper-plane"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <script src="../scripts/app.js"></script>
+</body>
+</html>
